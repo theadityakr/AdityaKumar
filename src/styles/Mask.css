@@ -1,0 +1,29 @@
+.mask {
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none
+}
+
+.mask_top,.mask_bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: var(--pad);
+    transition-property: background-color;
+    transition-duration: .9s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+    opacity: .9
+}
+
+.mask_top {
+    top: 0
+}
+
+.mask_bottom {
+    bottom: 0
+}

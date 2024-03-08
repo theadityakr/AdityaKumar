@@ -1,0 +1,33 @@
+.theme {
+    position: fixed;
+    z-index: 10;
+    left: calc(var(--pad) - .15em);
+    bottom: var(--pad);
+    transform-origin: left bottom;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    mix-blend-mode: difference;
+    display: flex;
+    column-gap: 15px;
+    cursor: pointer
+}
+
+.theme_colors {
+    display: flex;
+    column-gap: 15px
+}
+
+.theme_btn {
+    display: flex;
+    column-gap: 3px;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.theme_btn ._box::before {
+    content: "□"
+}
+
+.theme_btn.is-selected ._box::before {
+    content: "■";
+}

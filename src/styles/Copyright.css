@@ -1,0 +1,18 @@
+
+
+#Copyright {
+    position: fixed;
+    z-index: 10;
+    left: var(--pad);
+    bottom: calc(var(--pad)*.5 - .5em);
+    font-size: 80%;
+    opacity: .5;
+    mix-blend-mode: difference
+    
+}
+
+@media not all and (min-width: 640px) {
+    #Copyright {
+        display:none
+    }
+}

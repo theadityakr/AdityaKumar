@@ -1,0 +1,69 @@
+#EnterView {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    will-change: opacity;
+    background-color: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5em;
+    font-size: 30px;
+    /* transition: opacity 5s ease; */
+}
+
+#EnterView ._t1 {
+    font-weight: 400;
+    
+}
+
+#EnterView ._t2 {
+    font-weight: 200;
+}
+
+/* ._t1, ._t2 {
+    transition: opacity 0.3s;
+    transition-delay: 1.5s;
+    opacity: 0;
+} */
+
+
+@keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+    }
+  }
+  
+  #EnterView {
+    animation: fadeOut 0.5s ease-in-out 2s forwards;
+  }
+
+  @keyframes fadeOutText {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+    }
+  }
+  
+  ._t1,._t2 {
+    animation: fadeOutText 0.7s ease-in-out 1.30s forwards;
+  }
