@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AdityaKumar/static/css/main.a8f893df.css",
+    "main.js": "/AdityaKumar/static/js/main.3b490164.js",
+    "static/media/PPNeueMontrealMono-Bold.otf": "/AdityaKumar/static/media/PPNeueMontrealMono-Bold.5c4c45fc6a3714658166.otf",
+    "static/media/PPNeueMontrealMono-Book.otf": "/AdityaKumar/static/media/PPNeueMontrealMono-Book.06a0dbe16d3b35f8bd43.otf",
+    "static/media/PPNeueMontrealMono-Thin.otf": "/AdityaKumar/static/media/PPNeueMontrealMono-Thin.2fcb41e4d4653c9102eb.otf",
+    "static/media/PPNeueMontreal-Bold.otf": "/AdityaKumar/static/media/PPNeueMontreal-Bold.34a4eb1a093eb36b2f46.otf",
+    "static/media/PPNeueMontreal-Thin.otf": "/AdityaKumar/static/media/PPNeueMontreal-Thin.113878d75d11299845e2.otf",
+    "index.html": "/AdityaKumar/index.html",
+    "main.a8f893df.css.map": "/AdityaKumar/static/css/main.a8f893df.css.map",
+    "main.3b490164.js.map": "/AdityaKumar/static/js/main.3b490164.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8f893df.css",
+    "static/js/main.3b490164.js"
+  ]
+}
