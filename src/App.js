@@ -26,7 +26,7 @@ function App() {
     <ThemeContext.Provider value={{theme, toggleTheme,monospaced,toggleMonospace}}>
      <div  id={theme} className= {`App ${monospaced ? " monospaced" : ""}`}>
           <EnterView/>
-          {/* <Background/> */}
+          <Background/>
           <Mask/>
           <Frame/>
           <Theme/>

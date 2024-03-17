@@ -2,7 +2,7 @@ import '../styles/Copyright.css'
 const Copyright = () =>{
     return (
         <div id="Copyright">
-            <p>Reproduction, reposting or modification of the content of this site is prohibited.</p>
+            <p>Software Engineer @Katalyst SDET Intern @Ex-Hevo</p>
         </div>
 
     );
