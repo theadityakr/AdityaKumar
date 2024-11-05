@@ -31,11 +31,12 @@
 }
 
 .project_heading {
-    font-weight: 400
+    font-weight: 400;
+    margin-top: 45px;
 }
 
 .project_list {
-    margin-top: 50px
+    margin: 5px 0 10px 0;
 }
 
 .project_list {
@@ -57,13 +58,13 @@
 
 .project_title {
     font-weight: 200;
-    font-size: 8vw;
+    font-size: 7vw;
     text-align: right
 }
 
 @media(min-width: 800px) {
     .project_title {
-        font-size:60px
+        font-size:50px
     }
 }
 

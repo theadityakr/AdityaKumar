@@ -12,7 +12,7 @@ const SiteHeader = ({ setSelectedComponent }) => {
     return (
         <header className="siteHeader" id="SiteHeader">
             <h1 className="siteHeader_title">Aditya Kumar</h1>
-            <p className="siteHeader_label">Coder &amp; Developer</p>
+            <p className="siteHeader_label ">Software Engineer @Katalyst &amp; SDET Intern @Ex-Hevo</p>
             <nav className="siteHeader_nav">
                 <ol>
                     <li className={selectedItem === 0 ? 'is-selected' : ''} onClick={() => handleItemClick(0)}>
@@ -30,12 +30,8 @@ const SiteHeader = ({ setSelectedComponent }) => {
                         <a className="_text" >Projects</a>
                     </li>
 
-                    <li className={selectedItem === 3 ? 'is-selected' : ''} onClick={() => handleItemClick(3)}>
-                        <div className="_dot">●</div> 
-                        <a className="_text" >Info</a>
-                    </li>
 
-                    <li className={selectedItem === 4 ? 'is-selected' : ''} onClick={() => handleItemClick(4)}>
+                    <li className={selectedItem === 3 ? 'is-selected' : ''} onClick={() => handleItemClick(3)}>
                         <div className="_dot">●</div>
                         <a className="_text" >Contact</a>
                     </li>

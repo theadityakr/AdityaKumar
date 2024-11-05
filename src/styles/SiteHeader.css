@@ -26,7 +26,10 @@
 
 .siteHeader_label {
   margin-top: 5px;
-  font-weight: 400
+  font-weight: 500;
+  /* font-size: 80%; */
+  opacity: .5;
+  mix-blend-mode: difference
 }
 
 .siteHeader_nav {

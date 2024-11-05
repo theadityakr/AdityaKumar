@@ -2,13 +2,29 @@
 const Contact = () =>{
     return (
         <section class="page" data-page="contact" style={{ display: 'block', opacity: 1 }}>
-			<div class="page_content contact">
-				<div class="contact_wrap">
-					<a class="contact_text jp text-btn" href="https://p5aholic.notion.site/p5aholic/Web-aac658c501b8458080dcc19e5ff26e51" target="_blank" rel="noopener">Resume ↗</a>
-					<a class="contact_text jp text-btn" href="mailto:theaditykr@gmail.com" target="_blank" rel="noopener">Email ↗</a>
-					<a class="contact_text jp text-btn" href="tel:+919839527933" target="_blank" rel="noopener">Phone ↗</a>
-				</div>
-			</div>
+			<div class="page_content project">
+                <div class="project_section">
+                    <h2 class="project_heading"></h2>
+                        <div class="project_list">
+						<a class="project_item text-btn" href="" target="_blank">
+                            <div class="project_title" >Resume</div>
+                            <div class="project_info"></div>
+                        </a>
+                        <a class="project_item text-btn" href="mailto:theaditykr@gmail.com" target="_blank">
+                            <div class="project_title" >theaditykr@gmail.com</div>
+                            <div class="project_info">Email</div>
+                        </a>
+
+                        <a class="project_item text-btn" href="tel:+919372444569" target="_blank">
+                            <div class="project_title" >+91 9372444569</div>
+                            <div class="project_info">Phone</div>
+                        </a>
+
+                        </div>
+            </div>
+
+            </div>
+			
 		</section>
 
     );

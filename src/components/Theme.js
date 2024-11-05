@@ -3,13 +3,13 @@ import { ThemeContext } from '../App';
 import '../styles/Theme.css'
 const Theme = () =>{
     const { theme, toggleTheme ,monospaced, toggleMonospace} = useContext(ThemeContext);
-    
+    const [lightThemeSelected,setlightThemeSelected] = useState(true);
 
-    const [lightThemeSelected,setlightThemeSelected] = useState(false);
     const handleonClick = () => {
         toggleTheme();
         setlightThemeSelected(!lightThemeSelected);
     }
+    
     return (
         <div className="theme" id="Theme" x-data="">
         	<div className="theme_colors" onClick={() => handleonClick()}>

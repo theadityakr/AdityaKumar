@@ -1,6 +1,6 @@
 import Copyright from './components/Copyright';
 import Mask from './components/Mask';
-import Background from './components/Background';
+// import Background from './components/Background';
 import Frame from './components/Frame';
 import Theme from './components/Theme';
 import SiteHeader from './components/SiteHeader';
@@ -12,7 +12,7 @@ export const ThemeContext = createContext(null);
 function App() {
   const [selectedComponent,setSelectedComponent] = useState(0);
   const [theme,setTheme] = useState('dark');
-  const [monospaced,setMonospaced] = useState(false);
+  const [monospaced,setMonospaced] = useState(true);
 
 
   const toggleTheme = () => {
@@ -22,17 +22,18 @@ function App() {
   const toggleMonospace = () => {
     setMonospaced(!monospaced);
   }
+
   return (
-    <ThemeContext.Provider value={{theme, toggleTheme,monospaced,toggleMonospace}}>
+    <ThemeContext.Provider value={{theme, toggleTheme, monospaced, toggleMonospace}}>
      <div  id={theme} className= {`App ${monospaced ? " monospaced" : ""}`}>
           <EnterView/>
-          <Background/>
+          {/* <Background/> */}
           <Mask/>
           <Frame/>
           <Theme/>
           <SiteHeader setSelectedComponent = {setSelectedComponent}/>
-          <Copyright/>
           <Content selectedComponent = {selectedComponent}/>
+          {/* <Copyright/> */}
       </div>
     </ThemeContext.Provider>
   );
