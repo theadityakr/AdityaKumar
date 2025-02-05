@@ -15,11 +15,11 @@ const Theme = () =>{
         	<div className="theme_colors" onClick={() => handleonClick()}>
             <div className={`theme_btn ${lightThemeSelected ? "is-selected" : ""}`}>
                 <div className="_box"></div>
-                <div className="_text">Light</div>
+                <div className="_text">Dark</div>
             </div>
             <div className={`theme_btn ${!lightThemeSelected ? "is-selected" : ""}`}>
         			<div className="_box"></div>
-        			<div div className="_text">Dark</div>
+        			<div div className="_text">light</div>
         		</div>
         	</div>
             <div className={`theme_btn ${monospaced ? "is-selected" : ""}`} onClick={() => toggleMonospace()}>

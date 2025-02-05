@@ -1,6 +1,7 @@
 import Home from '../pages/Home';
 import Education from '../pages/Education';
 import Projects from '../pages/Projects';
+import ProjectsPersonal from '../pages/ProjectsPersonal';
 // import Info from '../pages/Info';
 import Contact from '../pages/Contact';
 import {React, useState} from 'react';
@@ -9,7 +10,7 @@ import '../styles/Content.css';
 
 const Content = ({ selectedComponent }) => {
     const [scrollY, setScrollY] = useState(0);
-    const components = [<Home />, <Education />, <Projects />, <Contact />];
+    const components = [<Home />, <Education />, <Projects />, <ProjectsPersonal/>, <Contact />];
 
   
     const minScrollY = 0; 
