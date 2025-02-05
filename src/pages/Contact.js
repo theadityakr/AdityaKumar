@@ -6,10 +6,10 @@ const Contact = () =>{
                 <div class="project_section">
                     <h2 class="project_heading"></h2>
                         <div class="project_list">
-						<a class="project_item text-btn" href="" target="_blank">
+						<div class="project_item" >
                             <div class="project_title" >Resume</div>
                             <div class="project_info"></div>
-                        </a>
+                        </div>
                         <a class="project_item text-btn" href="mailto:theaditykr@gmail.com" target="_blank">
                             <div class="project_title" >theaditykr@gmail.com</div>
                             <div class="project_info">Email</div>

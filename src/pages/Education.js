@@ -6,15 +6,15 @@ const Education = () =>{
                 <div class="project_section">
                     <h2 class="project_heading"></h2>
                         <div class="project_list">
-                        <a class="project_item text-btn" href="" target="_blank">
+                        <div class="project_item" >
                             <div class="project_title" style={{fontSize:"25px"}}>Indian Institute of Information Technology,Allahabad</div>
                             <div class="project_info">B.Tech In Information Technology<br/>2019-2023<br/>Allahabad, Uttar Pradesh</div>
-                        </a>
+                        </div>
 
-                        <a class="project_item text-btn" href="" target="_blank">
+                        <div class="project_item" >
                             <div class="project_title" style={{fontSize:"25px"}}>Spring Dale College</div>
                             <div class="project_info">10 + 2 <br/>2016-2018<br/>Lucknow, Uttar Pradesh</div>
-                        </a>
+                        </div>
 
                         </div>
             </div>

@@ -30,8 +30,13 @@ const SiteHeader = ({ setSelectedComponent }) => {
                         <a className="_text" >Projects</a>
                     </li>
 
-
                     <li className={selectedItem === 3 ? 'is-selected' : ''} onClick={() => handleItemClick(3)}>
+                        <div className="_dot">●</div>
+                        <a className="_text" >Personal Projects</a>
+                    </li>
+
+
+                    <li className={selectedItem === 4 ? 'is-selected' : ''} onClick={() => handleItemClick(4)}>
                         <div className="_dot">●</div>
                         <a className="_text" >Contact</a>
                     </li>
